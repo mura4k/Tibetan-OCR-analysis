@@ -25,7 +25,7 @@ def adjust_ocr_json(file_number: int):
             json.dump(new_ocr_data, ocr_file, ensure_ascii=False, indent=4)
 
 
-def glue_words_with_igo(text_list: List[str]) -> List[str]:
+def glue_words_with_shad(text_list: List[str]) -> List[str]:
     flag = 0
     result = []
     for i in range(len(text_list)):
@@ -97,8 +97,8 @@ def process_and_save_json(ocr_file_path: str, man_file_path: str) -> (int, int):
 
     for key in ocr_data.keys():
         if key in man_data:
-            ocr_text = glue_words_with_igo(ocr_data[key].split())
-            man_text = glue_words_with_igo(man_data[key].split())
+            ocr_text = glue_words_with_shad(ocr_data[key].split())
+            man_text = glue_words_with_shad(man_data[key].split())
 
             level_word_count(ocr_text, man_text)
 
