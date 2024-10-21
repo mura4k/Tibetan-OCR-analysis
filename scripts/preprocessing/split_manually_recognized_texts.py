@@ -12,10 +12,10 @@ def main():
     text = re.split(r"\nPage \d\d\d\d\n", text)
 
     # Save each page's text to a separate file
-    for i in range(2, 56):
+    for i in range(3, 56):
         filename = os.path.join(BASE_DIR, 'data', 'manually_recognised_texts', 'processed', f"{i}_man.txt")
         with open(filename, "w") as f:
-            f.write(text[i - 2])
+            f.write(text[i - 3])
 
     # Path to transliterated pages 471-500
     input_file_2 = os.path.join(BASE_DIR, 'data', 'manually_recognised_texts', 'raw', 'transliteration TCCG-001_471_500.txt')

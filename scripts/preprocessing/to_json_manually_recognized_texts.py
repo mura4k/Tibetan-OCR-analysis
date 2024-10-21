@@ -8,7 +8,7 @@ def process_first_texts_to_json(file_path):
     texts = {}
 
     with open(file_path, 'r') as f:
-        lines = [line.rstrip() for line in f if line != '\n']
+        lines = [line.rstrip().replace("[", "").replace("]", "") for line in f if line != '\n']
 
     flag = 1
     for idx, line in enumerate(lines):
@@ -54,7 +54,7 @@ def process_second_texts_to_json(file_path):
 
 
 def main():
-    for i in range(2, 56):
+    for i in range(3, 56):
         fp = os.path.join(BASE_DIR, 'data', 'manually_recognised_texts', 'processed', str(i) + '_man.txt')
         process_first_texts_to_json(fp)
     for i in range(471, 501):
