@@ -43,7 +43,8 @@
         "gzigs",
         "ma",
         "dang",
-        "/ /"
+        "/",
+        "/"
     ],
     "2": [
         "sgrob",
@@ -92,7 +93,8 @@
     "3": [
         "po",
         "bzung",
-        "l dang",
+        "l",
+        "dang",
         "/",
         "/",
         "byang",
@@ -246,6 +248,7 @@
         "bcom",
         "ldan",
         "'ngs",
+        "",
         "rdo",
         "rje",
         "'dzin"
