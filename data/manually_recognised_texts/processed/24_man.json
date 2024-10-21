@@ -139,7 +139,8 @@
         "jogs",
         "pa",
         "/",
-        "ma tshang"
+        "ma tshang",
+        ""
     ],
     "4": [
         "ba",
@@ -160,7 +161,8 @@
         "chig",
         "dang",
         "ye",
-        "ge 'id",
+        "ge",
+        "'id",
         "rnams",
         "nyid",
         "kyis",
@@ -228,7 +230,6 @@
         "gzhan",
         "dang",
         "gzhan",
-        "",
         "re",
         "re",
         "zhing",

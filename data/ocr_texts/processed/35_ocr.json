@@ -29,8 +29,8 @@
         "/",
         "/",
         "khu",
-        "ba",
-        "'bab ma",
+        "ba 'bab",
+        "ma",
         "shes",
         "rab",
         "kyi",
@@ -45,7 +45,9 @@
         "ni",
         "/",
         "/",
-        "ku gsung /"
+        "ku",
+        "gsung",
+        "/"
     ],
     "2": [
         "thugs",
@@ -55,8 +57,6 @@
         "/",
         "/",
         "shes",
-        "",
-        "",
         "rab",
         "thabs",
         "dngos",
@@ -171,7 +171,8 @@
         "'byung",
         "dang",
         "'jug",
-        "pa'o mi",
+        "pa'o",
+        "mi",
         "yi",
         "bdag",
         "/",
@@ -212,7 +213,8 @@
         "po",
         "/",
         "/",
-        "'ag yis",
+        "'ag",
+        "yis",
         "dman",
         "pa",
         "gang",
@@ -294,7 +296,9 @@
         "sa",
         "dang",
         "rlung",
-        "gi rang bzhin",
+        "gi",
+        "rang",
+        "bzhin",
         "can",
         "/",
         "/"
@@ -350,7 +354,8 @@
         "rje",
         "'din",
         "par",
-        "'dod"
+        "'dod",
+        ""
     ],
     "8": [
         "zla",
