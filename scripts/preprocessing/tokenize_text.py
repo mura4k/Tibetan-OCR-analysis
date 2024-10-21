@@ -11,18 +11,28 @@ def string_tokenizer(text: str) -> List[str]:
     igo = '@'
     prev = ''
 
-    for char in text:
+    for index, char in enumerate(text):
         if char == ' ':
             if prev:
                 result.append(prev)
             prev = ''
-        elif char in {shad, igo}:
-            if prev and prev[-1] == char:
+        elif char == shad:
+            if prev:
+                result.append(prev)
+                prev = ''
+                result.append(char)
+            else:
+                prev = char
+        elif char == igo or (char == 'a' and index <= 4 and prev == ''):
+            if prev and prev[-1] in [igo, 'a']:
+                prev += char
+            elif prev:
                 prev += char
             else:
-                if prev:
-                    result.append(prev)
                 prev = char
+                
+
+
         else:
             if prev and prev[-1] in {shad, igo}:
                 result.append(prev)
@@ -68,4 +78,8 @@ def main():
             json.dump(ocr_data, file, ensure_ascii=False, indent=4)
         with open(man_file_path, 'w', encoding='utf-8') as file:
             json.dump(man_data, file, ensure_ascii=False, indent=4)
+        print(f'File {file_number} tokenized')
 
+
+if __name__ == '__main__':
+    main()
