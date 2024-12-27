@@ -11,6 +11,8 @@ def run_scripts():
         'split_manually_recognized_texts.py',
         'to_json_manually_recognized_texts.py',
         'to_json_ocr_texts.py'
+        'tokenize_text'
+        'align_text'
     ]
 
     for script in scripts:

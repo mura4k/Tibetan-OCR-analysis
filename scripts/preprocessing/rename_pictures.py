@@ -15,7 +15,7 @@ def main():
         match = pattern.match(filename)
         if match:
             number = match.group(1)
-            destination_directory = os.path.join(BASE_DIR, 'results', str(int(number)))
+            destination_directory = os.path.join(BASE_DIR, 'results1', str(int(number)))
             os.makedirs(destination_directory, exist_ok=True)
             new_filename = f'{int(number)}.jpg'
             old_file = os.path.join(source_directory, filename)

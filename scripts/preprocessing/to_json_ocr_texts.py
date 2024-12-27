@@ -34,7 +34,7 @@ def main():
                     # skip files that do not match the criteria
                     continue
 
-                numbered_lines[i] = cleaned_line
+                numbered_lines[i] = cleaned_line.replace("[", "").replace("]", "")
             os.remove(os.path.join(BASE_DIR, 'data', 'ocr_texts', 'processed', filename))
 
             # output JSON file

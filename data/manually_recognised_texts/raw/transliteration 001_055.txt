@@ -1,11 +1,3 @@
-{str1} @@@/ /rgya gar skad du / mnya+dzu shrI dz+nyA na satwa sya pa ra mAr+tha nA ma
-{str2} saM gI ti / bod skad du / 'jam dpal ye shes sems dpa'i don dam 
-{str3} pa'i mtshan yang dag par brjod pa / 'jam dpal gzhon nur gyur pa la 
-{str4} phyag 'tshal lo // de nas dpal ldan rdo rje 'chang // gdul dka' 'dul 
-{str5} pa rnams kyi mchog / dpa' bo 'jig rte na gsum las rgyal // rdo rje dbang 
-
-Page 0003
-
 {str1} @@@/ /phyug gsung pa'i rgyal // rnam rgyas pad+ma dkar po 'i sbyan // pad+ma rab tu rgyas ba'i zhal // rang gi lag gis rdo rje 
 {str2} mchog / yang dang yang du gsor byed pa // khro gnyir ldan pa'i rlabs la sogs / / lag na rdo rje mtha' yas pa // dpa' bo
 {str3} gdul dka' 'dul ba po // dpa' bo 'jigs rung gzugs can dang // rdo rje rtse mo rab 'phro ba // rang gi ;ag gis gsor byed 
